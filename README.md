@@ -23,28 +23,28 @@ view.od_width+=100;
 ## Methods
 
 Position:
-    * od_origin;
-    * od_x;
-    * od_y;
-    * od_left;
-    * od_top;
-    * od_bottom;
-    * od_right;
+   * od_origin;
+   * od_x;
+   * od_y;
+   * od_left;
+   * od_top;
+   * od_bottom;
+   * od_right;
 
 Size:
-    * od_size;
-    * od_height;
-    * od_width;
+   * od_size;
+   * od_height;
+   * od_width;
 
 Bounds:
-    * od_boundsWidth;
-    * od_boundsHeight;
-    * od_boundsX;
-    * od_boundsY;
+   * od_boundsWidth;
+   * od_boundsHeight;
+   * od_boundsX;
+   * od_boundsY;
 
 Center:
-    * od_centerX;
-    * od_centerY;
+   * od_centerX;
+   * od_centerY;
 
 ## Extra inline functions
 
