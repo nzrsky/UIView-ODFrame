@@ -72,7 +72,7 @@ UIView-ODFrame is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "UIView-ODFrame"
+pod "UIView+ODFrame"
 ```
 
 ## Author
