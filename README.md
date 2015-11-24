@@ -1,8 +1,8 @@
 # UIView-ODFrame
 
-[![Version](https://img.shields.io/cocoapods/v/UIView-ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
-[![License](https://img.shields.io/cocoapods/l/UIView-ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
-[![Platform](https://img.shields.io/cocoapods/p/UIView-ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
+[![Version](https://img.shields.io/cocoapods/v/UIView+ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
+[![License](https://img.shields.io/cocoapods/l/UIView+ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
+[![Platform](https://img.shields.io/cocoapods/p/UIView+ODFrame.svg?style=flat)](http://cocoapods.org/pods/UIView+ODFrame)
 
 Category for UIView extends the frame accessibility
 
