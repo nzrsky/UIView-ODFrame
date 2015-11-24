@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIView+ODFrame"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "Category for UIView extends the frame accessibility."
   s.homepage     = "https://github.com/Rogaven/UIView-Frame"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
