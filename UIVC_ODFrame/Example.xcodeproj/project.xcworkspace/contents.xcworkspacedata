@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UIVC_ODFrame.xcodeproj">
+      location = "self:/Developer/Projects/iOS/ODX6/ODX.UI/UIView-ODFrame/UIVC_ODFrame/Example.xcodeproj">
    </FileRef>
 </Workspace>

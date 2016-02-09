@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84BE090D1B3D3C250043AE31 /* UIVC_ODFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVC_ODFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BE090D1B3D3C250043AE31 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE09111B3D3C250043AE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BE09121B3D3C250043AE31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BE09141B3D3C250043AE31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		84BE090E1B3D3C250043AE31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84BE090D1B3D3C250043AE31 /* UIVC_ODFrame.app */,
+				84BE090D1B3D3C250043AE31 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84BE090C1B3D3C250043AE31 /* UIVC_ODFrame */ = {
+		84BE090C1B3D3C250043AE31 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84BE09301B3D3C260043AE31 /* Build configuration list for PBXNativeTarget "UIVC_ODFrame" */;
+			buildConfigurationList = 84BE09301B3D3C260043AE31 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				84BE09091B3D3C250043AE31 /* Sources */,
 				84BE090A1B3D3C250043AE31 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = UIVC_ODFrame;
+			name = Example;
 			productName = UIVC_ODFrame;
-			productReference = 84BE090D1B3D3C250043AE31 /* UIVC_ODFrame.app */;
+			productReference = 84BE090D1B3D3C250043AE31 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84BE09081B3D3C250043AE31 /* Build configuration list for PBXProject "UIVC_ODFrame" */;
+			buildConfigurationList = 84BE09081B3D3C250043AE31 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84BE090C1B3D3C250043AE31 /* UIVC_ODFrame */,
+				84BE090C1B3D3C250043AE31 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIVC_ODFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Example;
 			};
 			name = Debug;
 		};
@@ -301,14 +301,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIVC_ODFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Example;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84BE09081B3D3C250043AE31 /* Build configuration list for PBXProject "UIVC_ODFrame" */ = {
+		84BE09081B3D3C250043AE31 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84BE092E1B3D3C260043AE31 /* Debug */,
@@ -317,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84BE09301B3D3C260043AE31 /* Build configuration list for PBXNativeTarget "UIVC_ODFrame" */ = {
+		84BE09301B3D3C260043AE31 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84BE09311B3D3C260043AE31 /* Debug */,
