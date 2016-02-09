@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "UIView+ODFrame.h"
 
+static CGFloat const kViewAnimationDuration = 0.2f;
+
 @interface ViewController () {
     IBOutlet UIButton *_button;
 }
@@ -18,16 +20,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-        
+    
+    srand((uint)time(NULL));
+    
     _button.od_origin = (CGPoint){
-        roundf((self.view.od_width - _button.od_width)*0.5f),
-        roundf((self.view.od_height - _button.od_height)*0.5f)
+        avgf(self.view.od_width, _button.od_width),
+        avgf(self.view.od_height, _button.od_height)
     };
 }
 
 - (IBAction)action:(id)sender {
-    [UIView animateWithDuration:0.2 animations:^{
-        _button.frame = self.view.bounds;
+    [UIView animateWithDuration:kViewAnimationDuration animations:^{
+        _button.od_origin = CGPointIntegral((CGPoint){
+            rand() % (int)self.view.od_centerX,
+            rand() % (int)self.view.od_centerY
+        });
+        
+        NSLog(@"%@", ODPoint(_button.od_origin));
     }];
 }
 

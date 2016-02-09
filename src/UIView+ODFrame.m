@@ -22,7 +22,7 @@
 
 #import "UIView+ODFrame.h"
 
-@implementation UIView (OD_Frame)
+@implementation UIView (ODXUI_Frame)
 
 - (void)setOd_origin:(CGPoint)origin {
     CGRect rc = self.frame;

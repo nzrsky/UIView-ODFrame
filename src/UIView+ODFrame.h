@@ -23,7 +23,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface UIView (OD_Frame)
+@interface UIView (ODXUI_Frame)
 @property (nonatomic, assign) CGPoint od_origin;
 @property (nonatomic, assign) CGSize od_size;
 
